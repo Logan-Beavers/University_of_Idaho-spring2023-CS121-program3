@@ -1,3 +1,3 @@
 # Program 3
 
-This is a program I made as a class requirement for CS121
+Take in an infix operation, then check it for errors, then convert it to postfix, then evaluate the expression.
