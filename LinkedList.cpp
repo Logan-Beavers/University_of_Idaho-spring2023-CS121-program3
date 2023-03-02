@@ -7,6 +7,7 @@
 **********************************************************************/
 
 #include <climits>
+#include <cstddef>
 #include "LinkedList.h"
 
 LinkedList::LinkedList()
@@ -93,7 +94,7 @@ LinkedList::element LinkedList::nth_element(int n)
     {
         return false;
     }
-    
+
     //set LinkedList iterator to nth position
     if (_iterator_index > n) //iterator isn't less than or equal to nth position, and has to be reset in order to iterate up to nth position
     {
@@ -105,7 +106,7 @@ LinkedList::element LinkedList::nth_element(int n)
     {
         _iterator = _iterator->_link;
     }
-    
+
     //return element at nth position
     return _iterator->_data;
 }
@@ -185,6 +186,6 @@ bool LinkedList::remove_nth_element(int n)
         //update size of the list
         _size -= 1;
     }
-    
+
     return true;
 }
