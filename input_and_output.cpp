@@ -34,5 +34,5 @@ bool fill_with_infix(std::string& functionOut_fill)
 void print(std::string output)
 {
 	//print string
-	std::cout << output << std::endl;
+	std::cout << "postfix: " << output << std::endl;
 }
