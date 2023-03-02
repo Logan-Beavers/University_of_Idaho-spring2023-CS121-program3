@@ -27,6 +27,10 @@ public:
 		NULL -> stack is empty */
 	Stack::element pop();
 
+	/*  get element from the top of the stack without deleting it
+		NULL -> stack is empty */
+	Stack::element peek();
+
 	//return the size of the stack
 	int size();
 

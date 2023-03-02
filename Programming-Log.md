@@ -37,4 +37,7 @@
 
 ### Created Stack Class *1 hour*
 * Learned I can typedef a typedef which means I can alias the linkedlist element as a stack element
-* 
+
+### Created infix to postfix function *1 hour +
+* Realized I will want to peek at the stack, made a peek function for the stack
+

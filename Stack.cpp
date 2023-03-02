@@ -32,6 +32,18 @@ Stack::element Stack::pop()
 	return e;
 }
 
+Stack::element Stack::peek()
+{
+    //check if stack is empty
+	if(list.get_size() == 0)
+	{
+        return NULL;
+	}
+
+	//get element
+	return list.get_element();
+}
+
 int Stack::size()
 {
 	//get stack size from the list
