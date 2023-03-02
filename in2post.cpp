@@ -1,4 +1,5 @@
-/* arithmetic-infix-to-postfix.cpp
+/****************************************************************************************************
+ *												in2post.cpp
  *
  * CS 121.Bolden.........MSVC++ 19.34.31937...........Logan Beavers
  *						 G++ 10.2.1
@@ -7,28 +8,35 @@
  *
  * Programming Assignment #3
  * Take in an infix operation, then check for syntax and logic errors and convert it to postfix
- *---------------------------------------------------------------------
- */
+ ***************************************************************************************************/
 
 #include <cstdlib>
-#include <iostream>
 #include <string>
+
+#include "input_and_output.h"
 
 int main()
 {
-	bool user_active = true;
-	do {
-		//get input
-		//perform conversion
-		//output
-	} while (user_active);
+	//initialize variables
+	bool user_active = true;//false if user wants to quit program
+	std::string infix = std::string();//infix string the user wants to convert to postfix
+	std::string postfix = std::string();//postfix string after user has converted it. May contain an error message if the infix to postfix conversion failed
 
-	std::string buffer = std::string();
+	//get infix string from user and check if user entered "quit"
+	user_active = fill_with_infix(infix);
 
-	std::getline(std::cin, buffer);
+	//keep prompting for infix to postfix while user hasn't entered quit
+	while(user_active)
+	{
+		//convert infix to postfix
+		postfix = infix_to_postfix(infix);
 
-	std::cout << "\n" << buffer << std::flush;
+		//print postfix string
+		print(postfix);
 
+		//get infix string from user and check if user entered "quit"
+		user_active = fill_with_infix(infix);
+	}
 
 	return EXIT_SUCCESS;
 }
