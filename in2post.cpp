@@ -14,6 +14,7 @@
 #include <string>
 
 #include "input_and_output.h"
+#include "infix_postfix.h"
 
 int main()
 {
