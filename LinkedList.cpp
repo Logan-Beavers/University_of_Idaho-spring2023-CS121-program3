@@ -90,7 +90,7 @@ bool LinkedList::remove_element()
 LinkedList::element LinkedList::nth_element(int n)
 {
     //check if element is in bounds or if list is empty
-    if (n > _size - 1 || _size == 0)
+    if (n > _size - 1 or _size == 0)
     {
         return false;
     }
@@ -114,7 +114,7 @@ LinkedList::element LinkedList::nth_element(int n)
 bool LinkedList::set_nth_element(int n, element data)
 {
     //check if element is in bounds or if list is empty
-    if (n > _size - 1 || _size == 0)
+    if (n > _size - 1 or _size == 0)
     {
         return false;
     }
@@ -139,7 +139,7 @@ bool LinkedList::set_nth_element(int n, element data)
 bool LinkedList::remove_nth_element(int n)
 {
     //check if element is in bounds or if list is empty
-    if (n > _size - 1 || _size == 0)
+    if (n > _size - 1 or _size == 0)
     {
         return false;
     }
