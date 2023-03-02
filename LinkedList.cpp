@@ -1,4 +1,11 @@
-//LinkedList.cpp
+/*********************************************************************
+*                           LinkedList.cpp
+*
+* LinkedList class member definitions
+*
+* TODO why is this here
+**********************************************************************/
+
 #include <climits>
 #include "LinkedList.h"
 

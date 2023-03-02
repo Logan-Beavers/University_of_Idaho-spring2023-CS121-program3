@@ -1,4 +1,12 @@
-//LinkedList.h
+/*********************************************************************  
+*                              LinkedList.h
+* 
+* LinkedList class definition
+*                                  
+* TODO why is this here
+**********************************************************************/
+
+//header guard
 #pragma once
 
 //0-indexed singly linked list of an "element" data type
