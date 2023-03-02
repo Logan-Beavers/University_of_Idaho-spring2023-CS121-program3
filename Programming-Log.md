@@ -19,8 +19,18 @@
 * Rules
     * The stack should not be pushed to consecutively unless it is a parenthesis
     * There should be n-1 operators for n operands
+    * The stack should be empty when the input string is empty ((
+    * The stack should only be empty when the input string is empty ))
 
 ### Created Linked List data structure: *2 hours*
-* Learned that I should define the node data structure with my List instead of creating a generic one and using it as a one-size-fits-all for other structures. This is because interpreting the ambiguous datatype is not only dangerous but inefficent to just defineing what you need
+
+* Learned that I should define the node data structure with my List instead of creating a generic one and using it as a one-size-fits-all for other structures. This is because interpreting the ambiguous datatype is not only dangerous but inefficent compared to just defining what you need
 * Learned that I shouldn't have private members of the node data structure for this linked list class, the getters and setters were all one line and just added fluff and confusion
 * Learned that for the stack class I am implementing I really don't need to have nth element functions, but I'm making them anyways so I will have them for the future
+
+### Created input and output fuctions, and main program loop: *1 hour*
+* Realized I should have a seperate file for input and output functions to simplify code
+* Researched conventions for multiple return types, decided on passing by reference
+
+### Documented Program: *10 minutes*
+* Deciced on a standard for file documentation
