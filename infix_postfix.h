@@ -11,4 +11,6 @@
 
 #include <string>
 
+/*  transform an infix string to a postfix string
+    will return an error string if syntax error or divide by zero is detected */
 std::string infix_to_postfix(std::string infix);
