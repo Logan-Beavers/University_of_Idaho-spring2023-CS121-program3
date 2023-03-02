@@ -11,9 +11,24 @@
  */
 
 #include <cstdlib>
+#include <iostream>
+#include <string>
 
-
-int main(int argc, char* argv[])
+int main()
 {
+	bool user_active = true;
+	do {
+		//get input
+		//perform conversion
+		//output
+	} while (user_active);
+
+	std::string buffer = std::string();
+
+	std::getline(std::cin, buffer);
+
+	std::cout << "\n" << buffer << std::flush;
+
+
 	return EXIT_SUCCESS;
 }
