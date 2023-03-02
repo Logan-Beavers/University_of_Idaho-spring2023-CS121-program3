@@ -14,6 +14,7 @@ class LinkedList
 {
 public:
 
+    //initialize the elements of the linked list when constructed
     LinkedList();
 
     //standardize the node datatype and the linked list return type
@@ -48,7 +49,6 @@ public:
     * 
     *********************************************************************/
 
-    //TODO: DESCRIBE ALL THESE
     /*  return the nth element in the list
         NULL -> list was empty or nth element was out of bounds */
     element nth_element(int n);
