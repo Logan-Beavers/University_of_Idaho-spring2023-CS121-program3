@@ -23,5 +23,4 @@
 ### Created Linked List data structure: *2 hours*
 * Learned that I should define the node data structure with my List instead of creating a generic one and using it as a one-size-fits-all for other structures. This is because interpreting the ambiguous datatype is not only dangerous but inefficent to just defineing what you need
 * Learned that I shouldn't have private members of the node data structure for this linked list class, the getters and setters were all one line and just added fluff and confusion
-* Learned that for the stack class I am implimenting I really don't need to have nth element functions, but I'm making them anyways so I will have them for the future
-
+* Learned that for the stack class I am implementing I really don't need to have nth element functions, but I'm making them anyways so I will have them for the future
