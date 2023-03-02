@@ -13,6 +13,9 @@
 
 bool fill_with_infix(std::string& functionOut_fill)
 {
+	//prompt user for input
+	std::cout << "infix: " << std::flush;
+
 	//get infix from user
 	std::getline(std::cin, functionOut_fill);
 	
