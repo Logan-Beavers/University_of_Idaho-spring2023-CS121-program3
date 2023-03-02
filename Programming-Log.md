@@ -33,4 +33,8 @@
 * Researched conventions for multiple return types, decided on passing by reference
 
 ### Documented Program: *10 minutes*
-* Deciced on a standard for file documentation
+* Decided on a standard for file documentation
+
+### Created Stack Class *1 hour*
+* Learned I can typedef a typedef which means I can alias the linkedlist element as a stack element
+* 
