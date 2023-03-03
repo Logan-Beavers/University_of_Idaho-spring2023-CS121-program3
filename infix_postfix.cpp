@@ -1,10 +1,11 @@
-#include "infix_postfix.h"
-#include "Stack.h"
 /*********************************************************************
 *                           infix_postfix.cpp
 *
 * Function definitions for converting infix to postfix
 **********************************************************************/
+
+#include "infix_postfix.h"
+#include "Stack.h"
 
 std::string infix_to_postfix(std::string infix)
 {
