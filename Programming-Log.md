@@ -9,8 +9,10 @@
     * class 1: ^
     * class 2: *, /
     * class 3: +, -
-2. Operators of the same or lower priority cannot be pushed onto a higher (or same) priority operator on the stack: if you have a + on the stack, and want to add a -, you must place the + in the postfix expression first
-3. When parenthesis are encountered, limit rule scope to the parenthesis, then place operators inside in the postfix expression when parenthesis end: A * (B - C) -> ABC-*
+2. Operators of the same or lower priority cannot be pushed onto a higher (or same) priority operator on the stack:
+    if you have a "+" on the stack, and want to add a "-", you must place the "+" in the postfix expression first
+3. When parenthesis are encountered, limit rule scope to the parenthesis,
+    then place operators inside in the postfix expression when parenthesis end: A * (B - C) -> ABC-*
 
 **Created rules for checking if the basic arithmetic is semantically correct**
 * Constraints
@@ -24,9 +26,13 @@
 
 ### Created Linked List data structure: *2 hours*
 
-* Learned that I should define the node data structure with my List instead of creating a generic one and using it as a one-size-fits-all for other structures. This is because interpreting the ambiguous datatype is not only dangerous but inefficent compared to just defining what you need
-* Learned that I shouldn't have private members of the node data structure for this linked list class, the getters and setters were all one line and just added fluff and confusion
-* Learned that for the stack class I am implementing I really don't need to have nth element functions, but I'm making them anyways so I will have them for the future
+* Learned that I should define the node data structure with my List instead of creating a generic one and using it as a one-size-fits-all
+    for other structures. This is because interpreting the ambiguous datatype is not only dangerous but inefficent compared to just
+    defining what you need
+* Learned that I shouldn't have private members of the node data structure for this linked list class, 
+    the getters and setters were all one line and just added fluff and confusion
+* Learned that for the stack class I am implementing I really don't need to have nth element functions, 
+    but I'm making them anyways so I will have them for the future
 
 ### Created input and output fuctions, and main program loop: *1 hour*
 * Realized I should have a seperate file for input and output functions to simplify code
@@ -35,9 +41,15 @@
 ### Documented Program: *10 minutes*
 * Decided on a standard for file documentation
 
-### Created Stack Class *1 hour*
+### Created Stack Class: *1 hour*
 * Learned I can typedef a typedef which means I can alias the linkedlist element as a stack element
 
-### Created infix to postfix function *1 hour +
-* Realized I will want to peek at the stack, made a peek function for the stack
-
+### Created infix to postfix function: *4 hours*
+* made a peek() function for the stack
+* Learned you can't or a switch function, switched to if-else statements
+* I realized I should make solving-stuff-in-parenthesis a function and call it recursively
+* I realized I can standardize the first word of the return string for the convert function if there was an error,
+    and avoid passing an extra bool that would indicate error
+* added a free() function to the stack and list classes
+* I realized that creating a stack for every group of parenthesis is inefficient and bug prone, redesigned program
+* Spent a while debugging syntax checking
