@@ -65,6 +65,9 @@ bool LinkedList::add_element(element data)
     _iterator->_link = _head;
     _head = _iterator;
 
+    //add 1 to the size of the list
+    ++_size;
+
     return true;
 }
 
