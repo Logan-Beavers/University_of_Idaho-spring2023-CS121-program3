@@ -2,8 +2,6 @@
 *                           infix_postfix.h
 *
 * Function declarations for converting infix to postfix
-*
-* TODO why is this here
 **********************************************************************/
 
 //header guard

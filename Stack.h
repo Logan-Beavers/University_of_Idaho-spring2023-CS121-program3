@@ -2,8 +2,6 @@
 *                                Stack.h
 *
 * Stack class definition
-*
-* TODO why is this here
 **********************************************************************/
 
 //header guard

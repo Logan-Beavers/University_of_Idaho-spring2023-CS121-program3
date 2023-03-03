@@ -2,8 +2,6 @@
 *                           input_and_output.h
 *
 * Function definitions for program input and output
-*
-* TODO why is this here
 **********************************************************************/
 
 #include <iostream>

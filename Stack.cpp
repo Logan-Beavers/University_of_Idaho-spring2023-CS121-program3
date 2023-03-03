@@ -4,8 +4,6 @@
 *                              Stack.cpp
 *
 * Stack class member definitions
-*
-* TODO why is this here
 **********************************************************************/
 
 bool Stack::push(Stack::element e)

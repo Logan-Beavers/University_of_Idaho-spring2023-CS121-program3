@@ -2,8 +2,6 @@
 *                              LinkedList.h
 * 
 * LinkedList class definition
-*                                  
-* TODO why is this here
 **********************************************************************/
 
 //header guard
