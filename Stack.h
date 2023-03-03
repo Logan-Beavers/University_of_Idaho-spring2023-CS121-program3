@@ -34,8 +34,11 @@ public:
 	//return the size of the stack
 	int size();
 
+	//free all memory in use by the stack
+	void free();
+
 private:
 
 	//fundamental data structure of the stack
-	LinkedList list;
+	LinkedList _list;
 };
