@@ -1,10 +1,11 @@
-#include "Stack.h"
-#include <cstddef>
 /*********************************************************************
 *                              Stack.cpp
 *
 * Stack class member definitions
 **********************************************************************/
+
+#include "Stack.h"
+#include <cstddef>
 
 bool Stack::push(Stack::element e)
 {
