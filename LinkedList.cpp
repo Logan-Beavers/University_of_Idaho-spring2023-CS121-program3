@@ -24,6 +24,15 @@ int LinkedList::get_size()
     return LinkedList::_size;
 }
 
+void LinkedList::free()
+{
+    //step through list and remove every node
+    while(_size != 0)
+    {
+        remove_element();
+    }
+}
+
 /********************************************************************
 *
 *                functions that only operate on end of list
@@ -55,6 +64,8 @@ bool LinkedList::add_element(element data)
     //add new node to list
     _iterator->_link = _head;
     _head = _iterator;
+
+    return true;
 }
 
 bool LinkedList::remove_element()

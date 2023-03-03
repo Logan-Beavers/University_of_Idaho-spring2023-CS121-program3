@@ -23,6 +23,9 @@ public:
     //return the size of the list
     int get_size();
 
+    //clear the list and free all memory;
+    void free();
+
     /********************************************************************
     *
     *                functions that only operate on end of list
