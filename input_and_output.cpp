@@ -1,5 +1,5 @@
 /*********************************************************************
-*                           input_and_output.h
+*                           input_and_output.cpp
 *
 * Function definitions for program input and output
 **********************************************************************/
